@@ -1,0 +1,85 @@
+:root {
+    --richtiges-grau-color: #161618;
+    --pr0gramm-orange-color: #ee4d2e;
+    --standard-schriftfarbe-color: #f2f5f4;
+    --standard-schriftfarbe-color-ausgegraut: #888888;
+}
+
+body {
+    background-color: var(--richtiges-grau-color);
+    color: var(--pr0gramm-orange-color);
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 23px;
+}
+
+p {
+    color: var(--standard-schriftfarbe-color);
+}
+
+.zutaten ul {
+    list-style-type: none;
+    padding-left: 10px;
+    color: var(--standard-schriftfarbe-color);
+}
+
+.zutaten li::before {
+    content: "- ";
+    color: var(--pr0gramm-orange-color);
+}
+
+.zutaten {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.zutat-box {
+    flex: 1 1 200px;
+    padding: 1rem;
+}
+
+.bildreihe {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.bild-wrapper {
+    flex: 1;
+}
+
+.bild-wrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.zubereitung {
+    column-count: 2;
+    column-gap: 40px;
+}
+
+.zubereitung li {
+    break-inside: avoid;
+    margin-bottom: 1em;
+}
+
+.h1-kombi h1 {
+    margin-bottom: 0.25rem;
+}
+
+.h1-kombi p {
+    margin-top: 0;
+    font-size: 0.9rem;
+    color: var(--standard-schriftfarbe-color-ausgegraut);
+}
