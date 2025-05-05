@@ -1,6 +1,6 @@
 # HTML Rezept-Template & HTML zu PNG Konverter
 
-Eine einfache HTML/CSS-Vorlage für Rezepte. Mit dem beiliegenden Python-Skript 'to_image.py' kann aus dem HTML-Dokument ein PNG-Bild erstellt werden..
+Eine einfache HTML/CSS-Vorlage für Rezepte. Mit dem beiliegenden Python-Skript 'to_image.py' kann aus dem HTML-Dokument ein PNG-Bild erstellt werden.
 
 ## Funktionsweise
 
